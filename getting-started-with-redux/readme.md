@@ -26,16 +26,16 @@ Dan recommends you define the `type` property with a `string` because they're se
 __Important:__ Some functions in Redux have to be pure.
 
 ###Pure Functions
--Return values depend solely on the values of their arguments
--No observable side effects, such as network or database calls
--Predictable, if called with same arguments you get the same value
--Do not modify the values passed to them
+- Return values depend solely on the values of their arguments
+- No observable side effects, such as network or database calls
+- Predictable, if called with same arguments you get the same value
+- Do not modify the values passed to them
 
 ###Impure Functions
--May call the database or network
--May have side effects
--May operate on the DOM
--May modify the values passed to them
+- May call the database or network
+- May have side effects
+- May operate on the DOM
+- May modify the values passed to them
 
 ```js
 // Pure functions
